@@ -1,0 +1,80 @@
+body{
+    background: url('../images/bg.png');
+    margin: 0 20px ;
+}
+.text_logo{
+    text-align: center;
+    text-shadow: 2px 2px yellow;
+    color: orange;
+    padding: 40px ,0px;
+    font-size: 40px;
+}
+.text_logo .glyphicon-cutlery{
+    text-shadow: 0px 0px yellow;
+    color: white;
+}
+    nav{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+.menu{
+    color: orange;
+    display: inline-block;
+}
+.menu a {
+    color: orange;
+    font-weight: bolder;
+    font-size: 1.25em;
+    text-shadow: -2px 1px rgb(44, 41, 34);
+}
+.nav-pills li.active>a,.nav-pills li.active>a:focus,.nav-pills li.active>a:hover{
+    background: rgb(218, 145, 11);
+}
+    
+.thumbnail img{
+    background: rgb(180, 124, 26);
+}
+.price{
+    box-shadow: -2px -1px rgb(187, 158, 106);
+    position: absolute;
+    background: rgb(245, 163, 10,0.5);
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    top: 25px;
+    right: 15px;
+}
+.caption >h4{
+    color: orange;
+    font-size: 18px;
+}
+.btn-order{
+    width: 100%;
+    color:white;
+    border:none;
+    text-decoration: none;
+    background: orange;
+    text-shadow: 2px 2px rgb(90, 74, 74);
+}
+.btn-order :hover{
+    
+    color:orange;
+    text-decoration: none;
+    background: white;
+    text-shadow: 2px 2px rgb(153, 86, 86);
+}
+
+
+/* CSS ADMIN */
+#admin{
+    background: white;
+    padding: 50px;
+    border-radius: 15px;
+}
+
+.erreur{
+    color:red;
+    font-style: italic;
+    display: none;
+}
